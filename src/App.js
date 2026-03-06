@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import AddProduct from "./components/AddProduct";
 import ProductList from "./components/ProductList";
 import Stats from "./components/Stats";
-import ShareButton from "./components/ShareButton";
 import "./App.css"
 
 function App() {
@@ -59,8 +58,6 @@ function App() {
             />
 
             <Stats products={products} />
-
-            <ShareButton products={products} />
         </div>
     );
 }
