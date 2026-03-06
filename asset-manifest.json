@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/FreshBasket/static/css/main.766114bd.css",
+    "main.js": "/FreshBasket/static/js/main.86eaf149.js",
+    "index.html": "/FreshBasket/index.html",
+    "main.766114bd.css.map": "/FreshBasket/static/css/main.766114bd.css.map",
+    "main.86eaf149.js.map": "/FreshBasket/static/js/main.86eaf149.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.766114bd.css",
+    "static/js/main.86eaf149.js"
+  ]
+}
