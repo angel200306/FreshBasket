@@ -1,38 +1,100 @@
-.App {
-  text-align: center;
+*{
+    box-sizing:border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+    margin:0;
+    font-family:Arial;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.app{
+    background:linear-gradient(135deg, #a18cd1, #fbc2eb);
+    min-height:100vh;
+    padding:16px;
+    position:relative;
+    overflow:hidden;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+h1{
+    text-align:center;
+    font-size:32px;
+    margin-bottom:45px;
+    margin-top:30px;
 }
 
-.App-link {
-  color: #61dafb;
+form{
+    width:100%;
+    max-width:500px;
+    display:flex;
+    flex-direction:column;
+    gap:8px;
+    margin-bottom:45px;
+    margin-top: 30px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+form input{
+    padding:10px;
+    border-radius:8px;
+    border:none;
+    font-size:16px;
+}
+
+button{
+    padding:10px;
+    border:none;
+    border-radius:8px;
+    background:#333;
+    color:white;
+    font-size:16px;
+    cursor:pointer;
+    margin-top:30px;
+}
+
+ul{
+    list-style:none;
+    padding:0;
+    width:100%;
+    max-width:500px;
+}
+
+li {
+    background: white;
+    margin-bottom: 10px;
+    padding: 12px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.stats{
+    background:white;
+    padding:12px;
+    border-radius:10px;
+    width:100%;
+    max-width:500px;
+    margin-top:30px;
+}
+
+@media (max-width:480px){
+
+    h1{
+        font-size:20px;
+    }
+
+    form input{
+        font-size:14px;
+    }
+
+    button{
+        font-size:14px;
+    }
+
+    li{
+        font-size:14px;
+    }
+
 }
